@@ -8,8 +8,8 @@
     "build": "gulp build",
     "watch": "gulp watch",
     "w3c": "gulp w3c",
-    "deploy" : "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
