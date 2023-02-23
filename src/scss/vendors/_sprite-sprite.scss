@@ -1,0 +1,156 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$sprite-common-name: 'sprite-common';
+$sprite-common-x: 0px;
+$sprite-common-y: 500px;
+$sprite-common-offset-x: 0px;
+$sprite-common-offset-y: -500px;
+$sprite-common-width: 40px;
+$sprite-common-height: 44px;
+$sprite-common-total-width: 788px;
+$sprite-common-total-height: 544px;
+$sprite-common-image: '@@img/sprite/sprite.png';
+$sprite-common: (0px, 500px, 0px, -500px, 40px, 44px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-common', );
+$sprite-ui-icons-444444-256x240-name: 'sprite-ui-icons_444444_256x240';
+$sprite-ui-icons-444444-256x240-x: 0px;
+$sprite-ui-icons-444444-256x240-y: 0px;
+$sprite-ui-icons-444444-256x240-offset-x: 0px;
+$sprite-ui-icons-444444-256x240-offset-y: 0px;
+$sprite-ui-icons-444444-256x240-width: 256px;
+$sprite-ui-icons-444444-256x240-height: 240px;
+$sprite-ui-icons-444444-256x240-total-width: 788px;
+$sprite-ui-icons-444444-256x240-total-height: 544px;
+$sprite-ui-icons-444444-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-444444-256x240: (0px, 0px, 0px, 0px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_444444_256x240', );
+$sprite-ui-icons-555555-256x240-name: 'sprite-ui-icons_555555_256x240';
+$sprite-ui-icons-555555-256x240-x: 266px;
+$sprite-ui-icons-555555-256x240-y: 0px;
+$sprite-ui-icons-555555-256x240-offset-x: -266px;
+$sprite-ui-icons-555555-256x240-offset-y: 0px;
+$sprite-ui-icons-555555-256x240-width: 256px;
+$sprite-ui-icons-555555-256x240-height: 240px;
+$sprite-ui-icons-555555-256x240-total-width: 788px;
+$sprite-ui-icons-555555-256x240-total-height: 544px;
+$sprite-ui-icons-555555-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-555555-256x240: (266px, 0px, -266px, 0px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_555555_256x240', );
+$sprite-ui-icons-777620-256x240-name: 'sprite-ui-icons_777620_256x240';
+$sprite-ui-icons-777620-256x240-x: 0px;
+$sprite-ui-icons-777620-256x240-y: 250px;
+$sprite-ui-icons-777620-256x240-offset-x: 0px;
+$sprite-ui-icons-777620-256x240-offset-y: -250px;
+$sprite-ui-icons-777620-256x240-width: 256px;
+$sprite-ui-icons-777620-256x240-height: 240px;
+$sprite-ui-icons-777620-256x240-total-width: 788px;
+$sprite-ui-icons-777620-256x240-total-height: 544px;
+$sprite-ui-icons-777620-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-777620-256x240: (0px, 250px, 0px, -250px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_777620_256x240', );
+$sprite-ui-icons-777777-256x240-name: 'sprite-ui-icons_777777_256x240';
+$sprite-ui-icons-777777-256x240-x: 266px;
+$sprite-ui-icons-777777-256x240-y: 250px;
+$sprite-ui-icons-777777-256x240-offset-x: -266px;
+$sprite-ui-icons-777777-256x240-offset-y: -250px;
+$sprite-ui-icons-777777-256x240-width: 256px;
+$sprite-ui-icons-777777-256x240-height: 240px;
+$sprite-ui-icons-777777-256x240-total-width: 788px;
+$sprite-ui-icons-777777-256x240-total-height: 544px;
+$sprite-ui-icons-777777-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-777777-256x240: (266px, 250px, -266px, -250px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_777777_256x240', );
+$sprite-ui-icons-cc0000-256x240-name: 'sprite-ui-icons_cc0000_256x240';
+$sprite-ui-icons-cc0000-256x240-x: 532px;
+$sprite-ui-icons-cc0000-256x240-y: 0px;
+$sprite-ui-icons-cc0000-256x240-offset-x: -532px;
+$sprite-ui-icons-cc0000-256x240-offset-y: 0px;
+$sprite-ui-icons-cc0000-256x240-width: 256px;
+$sprite-ui-icons-cc0000-256x240-height: 240px;
+$sprite-ui-icons-cc0000-256x240-total-width: 788px;
+$sprite-ui-icons-cc0000-256x240-total-height: 544px;
+$sprite-ui-icons-cc0000-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-cc0000-256x240: (532px, 0px, -532px, 0px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_cc0000_256x240', );
+$sprite-ui-icons-ffffff-256x240-name: 'sprite-ui-icons_ffffff_256x240';
+$sprite-ui-icons-ffffff-256x240-x: 532px;
+$sprite-ui-icons-ffffff-256x240-y: 250px;
+$sprite-ui-icons-ffffff-256x240-offset-x: -532px;
+$sprite-ui-icons-ffffff-256x240-offset-y: -250px;
+$sprite-ui-icons-ffffff-256x240-width: 256px;
+$sprite-ui-icons-ffffff-256x240-height: 240px;
+$sprite-ui-icons-ffffff-256x240-total-width: 788px;
+$sprite-ui-icons-ffffff-256x240-total-height: 544px;
+$sprite-ui-icons-ffffff-256x240-image: '@@img/sprite/sprite.png';
+$sprite-ui-icons-ffffff-256x240: (532px, 250px, -532px, -250px, 256px, 240px, 788px, 544px, '@@img/sprite/sprite.png', 'sprite-ui-icons_ffffff_256x240', );
+$sprite-width: 788px;
+$sprite-height: 544px;
+$sprite-image: '@@img/sprite/sprite.png';
+$sprite-sprites: ($sprite-common, $sprite-ui-icons-444444-256x240, $sprite-ui-icons-555555-256x240, $sprite-ui-icons-777620-256x240, $sprite-ui-icons-777777-256x240, $sprite-ui-icons-cc0000-256x240, $sprite-ui-icons-ffffff-256x240, );
+$sprite: (788px, 544px, '@@img/sprite/sprite.png', $sprite-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

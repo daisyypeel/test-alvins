@@ -1,0 +1,21 @@
+// hidden
+@mixin hidden {
+	position: absolute;
+	left: -9999px;
+}
+
+// clearfix
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+// ellipsis
+@mixin ellipsis {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}

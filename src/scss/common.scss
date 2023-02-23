@@ -1,0 +1,25 @@
+//
+// COMMON.SCSS
+// --------------------------------------------------
+
+// Helpers
+@import './helpers/variables';					// 환경변수 설정
+@import './helpers/functions';					// 함수
+@import './helpers/mixins';						// 믹스인
+@import './helpers/media';						// 미디어쿼리
+
+// Base
+@import './base/reset';							// CSS reset
+@import './base/com';							// 프로젝트 환경 스타일
+
+// Vendors
+@import './vendors/*-sprite.scss';				// 아이콘 스프라이트 SCSS (gulp.spritesmith 모듈이 자동생성)
+
+// Components
+@import './components/**/*.scss';				// 공통 컴포넌트
+
+// Layout
+@import './layout/**/*.scss';					// 레이아웃 스타일
+
+// Pages
+@import './pages/**/*.scss';					// 섹션별 페이지 스타일

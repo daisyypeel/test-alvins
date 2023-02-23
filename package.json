@@ -1,0 +1,55 @@
+{
+  "name": "alvins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp default",
+    "build": "gulp build",
+    "watch": "gulp watch",
+    "w3c": "gulp w3c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisyypeel/test-alvins.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.9",
+    "cross-env": "^7.0.3",
+    "css-mqpacker": "^7.0.0",
+    "del": "^6.0.0",
+    "del-gulpsass-blank-lines": "^0.1.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-data": "^1.3.1",
+    "gulp-htmlhint": "^2.2.1",
+    "gulp-if": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.3",
+    "gulp-sass": "^5.1.0",
+    "gulp-sass-glob": "^1.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-w3cjs": "^1.3.2",
+    "gulp.spritesmith-multi": "^3.1.0",
+    "indent.js": "^0.3.4",
+    "list-filepaths": "^1.6.5",
+    "merge-stream": "^2.0.0",
+    "postcss-reporter": "^6.0.1",
+    "postcss-scss": "^4.0.3",
+    "sass": "^1.50.0",
+    "sort-css-media-queries": "^2.0.4",
+    "stylelint": "^10.1.0",
+    "through2": "^4.0.2"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.28"
+  },
+  "bugs": {
+    "url": "https://github.com/daisyypeel/test-alvins/issues"
+  },
+  "homepage": "https://github.com/daisyypeel/test-alvins#readme"
+}
